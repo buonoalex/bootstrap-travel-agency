@@ -9,5 +9,16 @@
 }
 
 .bg-pre{
+
     background-image: url(https://img.gruppomol.it/articoli/image/mare/1200x900_Depositphotos_23467114_xl-2015.jpg);
+    background-size: cover;
+
+}
+
+.logo1{
+    width: 100px;
+}
+
+.bg-logo{
+    background-color: rgb(232, 236, 212);
 }
