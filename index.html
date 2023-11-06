@@ -144,52 +144,73 @@
 
           <!-- Form -->
 
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="name" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="name">
+          <div class="card p-3 bg-pre">
+            <div class="card-body"></div>
+              <h2 class="text-center pb-4">Prenota il tuo viaggio</h2>
+
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-md-6">
+                  <label for="Cognome" class="form-label">Cognome</label>
+                  <input type="type" class="form-control" id="Cognome">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Indirizzo 1</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Via Toledo ecc">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Indirizzo 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Appartamento, studio">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Città</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Stato</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Scegli...</option>
+                    <option>Italia</option>
+                    <option>Francia</option>
+                    <option>Spagna</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Codice Postale</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+
+                <!-- Scelto bonus -->
+                <div class="col-12">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleziona la destinazione</option>
+                    <option value="1">EXPLORE THE SEA</option>
+                    <option value="2">HIKE IN THE FOREST</option>
+                    <option value="3">CAMP IN THE SNOW</option>
+                  </select>
+                </div>
+
+
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Leggimi e accettami
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Invia</button>
+                </div>
+
+              </form>
+
             </div>
-            <div class="col-md-6">
-              <label for="Cognome" class="form-label">Cognome</label>
-              <input type="type" class="form-control" id="Cognome">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Indirizzo 1</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Via Toledo ecc">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Indirizzo 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Appartamento, studio">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Città</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Stato</label>
-              <select id="inputState" class="form-select">
-                <option selected>Scegli...</option>
-                <option>Italia</option>
-                <option>Francia</option>
-                <option>Spagna</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Codice Postale</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Leggimi e accettami
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Iscriviti</button>
-            </div>
-          </form>
+
+          </div>
 
         </div>
 
